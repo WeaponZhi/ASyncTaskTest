@@ -20,11 +20,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="loadImage"
+        android:textAllCaps="false"
         android:text="Image Test" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="loadProgress"
+        android:textAllCaps="false"
         android:text="Progress Test" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadImageRecyclerView"
+        android:textAllCaps="false"
+        android:text="带有优化性能的异步加载图片RecyclerView" />
 </LinearLayout>

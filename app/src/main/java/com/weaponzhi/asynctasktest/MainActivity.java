@@ -1,8 +1,8 @@
 package com.weaponzhi.asynctasktest;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,11 +15,15 @@ public class MainActivity extends AppCompatActivity {
         task.execute();
     }
 
-    public void loadImage(View view){
-        startActivity(new Intent(this,ImageTest.class));
+    public void loadImage(View view) {
+        startActivity(new Intent(this, ImageTest.class));
     }
 
-    public void loadProgress(View view){
-        startActivity(new Intent(this,ProgressBarTest.class));
+    public void loadProgress(View view) {
+        startActivity(new Intent(this, ProgressBarTest.class));
+    }
+
+    public void loadImageRecyclerView(View view) {
+        startActivity(new Intent(this, RecyclerViewImageAsyncTaskActivity.class));
     }
 }
